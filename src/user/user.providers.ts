@@ -1,8 +1,8 @@
-import { Users } from './users.entity';
+import { User } from './user.model';
 
 export const catsProviders = [
   {
     provide: 'USERS_REPOSITORY',
-    useValue: Users,
+    useValue: User,
   },
 ];
