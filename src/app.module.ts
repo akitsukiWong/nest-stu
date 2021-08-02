@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { User } from './user/user.model';
+import { User } from './user/user.entity';
 @Global()
 @Module({
   imports: [
